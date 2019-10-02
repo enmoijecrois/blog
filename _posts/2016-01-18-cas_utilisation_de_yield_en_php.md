@@ -144,7 +144,7 @@ En reprenant le premier exemple, il suffit de remplacer l'assignation dans le ta
  *
  * @return \Generator
  */
-private function getProducts(
+private function getProductsGenerator(
     array $productIds, array $skus, $filename, $referenceDate
 )
 {
